@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>enrolment form</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<center>
+	<h1>WEBBED WONDER INC.</h1>
+	<h3>10, KENDUA MAIN ROAD BAISHNABGHATA GARIA KOLKATA -700 084</h3>
+	<h5>M.:- 6289860422</h5>
+	<h5> Email:- webbedwonderinc@gmail.com</h5>
+	<form method=" " action=" ">
+		<table border='2' cellpadding="5" cellspacing="1">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" placeholder="amit"   max length='100' size='50' name="name"></td>
+			</tr>
+			<tr>
+				<td> Father's Name</td>
+				<td><input type="text" placeholder="Rajat" max length='100' size='50' name="fname" ></td>
+			</tr>
+			<tr>
+				<td> Email Id</td>
+				<td><input type="text" placeholder="xyz@gmail.com" max length='100' size='50' name="email"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio"name="gender" value="male" checked>MALE<br>
+					<input type="radio"name="gender" value="female">FEMALE</td>
+			</tr>
+			<td>Language known</td>
+				<td><input type="Checkbox"name="Language Known" >Language Known<br>
+				       <input type="Checkbox"name="Bengali">Bengali<br>
+				       <input type="Checkbox"name="English" >English<br>
+				       <input type="Checkbox"name="Hindi" >Hindi<br>
+				      <input type="Checkbox"name="French" >French</td>
+				     </tr>
+				     <td>Skills You Have</td>
+				<td><input type="Checkbox"name="Web Design" >Web Design<br>
+				       <input type="Checkbox"name="Photography">Photography<br>
+				       <input type="Checkbox"name="Photo Edit" >Photo Edit<br>
+				       <input type="Checkbox"name="Video Edit" >Video Edit<br>
+				      <input type="Checkbox"name="App Development" >App Development<br>
+				      <input type="Checkbox"name="HTML" >HTML<br>
+				      <input type="Checkbox"name="Python(Programing Language)" >Python(Programing Language)<br>
+				      <input type="Checkbox"name="Core Java" >Core Java<br>
+				       <input type="Checkbox"name="Java Script" >Java Script<br>
+				      <input type="Checkbox"name="Other Skill" >Other Skill<br>
+				  </tr>
+				  <td> Name Of Other Skill</td>
+				<td><input type="text" placeholder="Name Of Other Skill"   max length='100' size='50' name="Name Of Other Skill"></td>
+			</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
